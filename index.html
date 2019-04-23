@@ -10,6 +10,7 @@
 
     <title>스타트엽</title>
 
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,7 +29,24 @@
     <!-- Navigation -->
     <nav class="navbar navbar-light bg-light static-top">
         <div class="container">
-            <a class="navbar-brand" href="#">스타트엽</a>
+            <a class="navbar-brand" href="#">스타트엽</a><style type="text/css">
+p {
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</style>
    <a class="btn btn-primary" href="https://blog.naver.com/jy9244">엽뚱이블로그</a>
         </div>
     </nav>
